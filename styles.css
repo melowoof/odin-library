@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  background: #000;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.library {
+  /* background: red; */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 10%));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+}
