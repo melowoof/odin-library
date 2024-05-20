@@ -2,19 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="normalize.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-    <div class="library">
-
-    </div>
-
+  <div class="mainContainer">
+    <button class="addBookButton">Add Blook</button>
+    <form action="" id="addBookForm" class="addBookForm">
+      <div>
+        <label for="title">Book title:</label>
+        <input type="text" id="title" placeholder="Title" />
+      </div>
+      <div>
+        <label for="author">Book author:</label>
+        <input type="text" id="author" placeholder="Author" />
+      </div>
+      <div>
+        <label for="pages">Number of pages:</label>
+        <input type="text" id="pages" placeholder="Pages" />
+      </div>
+      <div>
+        <label for="hasRead">Have you read this book?</label>
+        <input type="checkbox" id="hasRead" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="library"></div>
+  </div>
 </body>
 
 </html>
